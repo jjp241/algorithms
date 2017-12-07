@@ -33,7 +33,7 @@ int kmp(std::string word, std::string pattern){
     for (int i = 0; i < n; i++){
         if (word[i] == pattern[j])
             j++;
-        else
+        else if (j > 0)
             j = prefsuf[j-1];
         if (j >= m){ // pattern found
             x = i - m + 1;
