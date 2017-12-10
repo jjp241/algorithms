@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 
+// <! Knuth-Morris-Pratt pattern searching algorithm !>
 void countThePrefsuf(std::string pattern, int prefsuf[], int m){
     for (int i = 0; i < m; i++)
         prefsuf[i] = 0;
