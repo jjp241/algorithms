@@ -2,6 +2,7 @@
 
 1. Text algorithms
 * KMP
+* Longest Common Subsequence
 
 2. Graphs
 * Dijkstra's Shortest Path
